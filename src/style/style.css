@@ -1,0 +1,361 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Sans';
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.line {
+  width: 120px;
+  height: 1px;
+  background-color: #fff;
+  margin: 50px auto;
+}
+
+.btn {
+  border: 1px solid #FFFFFF;
+  background: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 12px 28px;
+}
+
+.watch-card__img {
+  padding: 55px 22px;
+  background-color: #191B1C;
+}
+
+.watch-card h4 {
+  font-size: 16px;
+  line-height: 21px;
+  color: #D0D0D0;
+}
+
+.watch-card p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 25px 0 10px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  background-color: #0F0F0F;
+  position: absolute;
+}
+
+.header .navbar {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .navbar .nav-item {
+  height: 80px;
+  color: #969696;
+}
+
+.header .navbar .nav-item:hover {
+  background-color: #1F1F1F;
+  color: white;
+}
+
+.header .navbar .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 20px;
+  height: 100%;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sank {
+  background: url(../images/sans/фото1.png) center/cover no-repeat;
+  width: 100%;
+  padding-top: 240px;
+  padding-bottom: 154px;
+  text-align: center;
+}
+
+.sank__text {
+  max-width: 730px;
+  width: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 80px auto 0;
+}
+
+.hard {
+  background-color: #000;
+  color: #fff;
+}
+
+.hard .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.hard .col .wrapper {
+  padding: 93px 80px;
+}
+
+.hard .col .row {
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.hard__bg {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: url(../images/hard/mujik.png) left/cover no-repeat;
+}
+
+.kolec2018 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.kolec2018 h4 {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.kolec2018 p {
+  font-size: 14px;
+  margin-bottom: 61px;
+}
+
+.kolec2018 .wrapper {
+  max-width: 471px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.time-8 {
+  background-color: #000;
+  padding-top: 120px;
+  padding-bottom: 150px;
+  color: #fff;
+}
+
+.time-8 .row {
+  max-width: 1109px;
+  margin: 0 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 23px;
+          column-gap: 23px;
+  row-gap: 40px;
+}
+
+.time-8 .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.time-8 .watch-card__img {
+  width: 259px;
+}
+
+.footer {
+  background: url(../images/webrand/footer.png) center/cover no-repeat;
+}
+
+.footer .silochka {
+  list-style: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  background: #0F0F0F;
+}
+
+.footer .kekich {
+  text-decoration: none;
+  color: #D0D0D0;
+}
+
+.footer__silka {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .tegi {
+  font-family: Playfair Display;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+
+.footer .col {
+  margin-right: 20px;
+  margin-left: 31px;
+}
+
+.footer .sorry {
+  height: 10%;
+}
+
+.footer .row {
+  padding: 3% 15% 5%;
+}
+
+.webrand {
+  padding: 60px 0 80px;
+  background-color: #0F0F0F;
+  color: #fff;
+  text-align: center;
+}
+
+.webrand .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+@media (max-width: 1000px) {
+  .hard .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .kolec2018 .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .webrand .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .btn {
+    padding: 4px 20px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .nav-item {
+    font-size: 10px;
+  }
+  .easy {
+    font-size: 35px;
+  }
+  .kolec2018 .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .kolec2018 .kolec2018__bg {
+    width: 100%;
+  }
+  .time-8 .row {
+    margin-left: 93px;
+  }
+  .footer .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 7% 5% 7%;
+  }
+  .footer .col {
+    margin-top: 20px;
+  }
+  .sans .kekich {
+    width: 200px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

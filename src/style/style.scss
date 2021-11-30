@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:regular,italic,700,700italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans';
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.line {
+    width: 120px;
+    height: 1px;
+    background-color: #fff;
+    margin: 50px auto;
+}
+
+.btn {
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 28px;
+}
+
+.watch-card {
+    &__img {
+        padding: 55px 22px;
+        background-color: #191B1C;
+    }
+
+    h4 {
+        font-size: 16px;
+        line-height: 21px;
+        color: #D0D0D0;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 25px 0 10px;
+    }
+}
+
+.row {
+    display: flex;
+
+    .col {
+        flex: 1
+    }
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+@import './header';
+@import './sans';
+@import './hard';
+@import './kolec';
+@import './time-8';
+@import './footer';
+@import './webrand';
+@import './media';

@@ -1,0 +1,27 @@
+.hard {
+    background-color: #000;
+    color: #fff;
+  
+    .col {
+      flex: 1;
+  
+      .wrapper {
+        padding: 93px 80px;
+      }
+  
+      .row {
+        column-gap: 50px;
+      }
+    }
+  
+    &__bg {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding-bottom: 100px;
+      flex-direction: column;
+      justify-content: flex-end;
+      background: url(../images/hard/mujik.png) left / cover no-repeat;
+    }
+  }
+  

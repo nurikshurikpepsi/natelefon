@@ -1,0 +1,65 @@
+@media (max-width: 1000px) {
+    .hard{
+        .row{
+            flex-wrap: wrap;
+        }
+    }
+    .kolec2018{
+        .row{
+            flex-wrap: wrap;
+        }
+    }
+    .webrand{
+        .row{
+            flex-wrap: wrap;
+        }
+    }
+    h3{
+        font-size: 25px;
+    }
+    .btn{
+        padding: 4px 20px
+    }
+    p{
+        font-size: 12px;
+    }
+    .nav-item{
+        font-size: 10px;
+    }
+    .easy{
+        font-size:35px;
+
+        
+    }
+    .kolec2018{
+      .row{
+          flex-wrap: wrap;
+      }
+      .kolec2018__bg{
+          width: 100%;
+      }
+    }
+    .time-8{
+        .row{
+            margin-left: 93px;
+        }
+    
+       
+    }
+    .footer{
+        .row{
+            flex-wrap: wrap;
+            padding: 7% 5% 7%;
+        }
+        .col{
+            margin-top: 20px;
+        }
+
+    }
+    .sans{
+        .kekich{
+width: 200px;
+height: 200px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.sank {
+    background: url(../images/sans/фото1.png) center / cover no-repeat;
+    width: 100%;
+    padding-top: 240px;
+    padding-bottom: 154px;
+    text-align: center;
+
+    &__text {
+        max-width: 730px;
+        width: 100%;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 80px auto 0;
+    }
+}
